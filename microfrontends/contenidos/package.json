@@ -1,0 +1,32 @@
+{
+  "name": "contenidos",
+  "private": true,
+  "description": "Micro-frontend de contenidos.",
+  "version": "1.0.0",
+  "author": "Santiago Larrea <santiago.larrea@pragma.com.co>",
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "ecosistemas": "1.0.0",
+    "gatsby": "2.18.3",
+    "gatsby-cli": "2.14.0",
+    "gatsby-source-contentful": "2.1.66",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  },
+  "devDependencies": {
+    "babel-jest": "24.9.0",
+    "babel-preset-gatsby": "0.2.23",
+    "prettier": "1.19.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\""
+  }
+}
